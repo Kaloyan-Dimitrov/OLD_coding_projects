@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1499072111 source:c:\kaloyan\progrmming with codeblocks smg\new folder\d3e2016.cpp
+	<iostream>
+	<cstring>
+
+1499074305 source:c:\kaloyan\progrmming with codeblocks smg\new folder\d3e2016\main.cpp
+	<iostream>
+	<cstring>
+

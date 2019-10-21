@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Extension Lab",
+    "version": "0.1",
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["jquery-3.3.1.min.js", "p5.min.js", "addons/p5.dom.min.js", "content.js"]
+    }],
+    "background": {
+      "scripts": ["p5.min.js", "addons/p5.dom.min.js", "background.js"]
+    },
+    "web_accessible_resources": [
+      "image.jpg"
+    ]
+}

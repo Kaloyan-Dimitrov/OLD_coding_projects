@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "sockets_and_node",
+  "version": "1.0.0",
+  "description": "sockets example ",
+  "main": "server.js",
+  "author": "Kaloyanz Dimitrov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}

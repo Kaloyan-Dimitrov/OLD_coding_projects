@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Language control 2",
+    "version": "0.1",
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["p5.min.js", "addons/p5.dom.min.js", "content.js"]
+    }],
+    "background": {
+      "scripts": ["p5.min.js", "addons/p5.dom.min.js", "background.js", "JavaScriptSpellCheck/include.js"]
+    },
+    "omnibox": {
+      "keyword" : "l"
+    },
+    "icons": {
+      "16": "logo.png"
+    },
+    "browser_action": {
+      "default_icon": "logo.png"
+    }
+}
